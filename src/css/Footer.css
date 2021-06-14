@@ -1,0 +1,77 @@
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    background-color: #666;
+}
+   
+#main div{
+   width: 20vw;
+}
+
+#main h1{
+    color: #4B9FD8;
+    width: unset;
+    font-size: 1.5rem;
+}
+
+#main p{
+    width: auto;
+    font-size: 1rem;
+    word-break: break-all;
+}
+
+#image{
+    width: 20vw;
+    height: 30vh;
+}
+
+
+#One > #image{
+    background-image: url(/src/images/salat.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Two > #image{
+    background-image: url(/src/images/pizza.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Three > #image{
+    background-image: url(/src/images/frikadellen.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Four > #image{
+    background-image: url(/src/images/glass.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Five > #image{
+    background-image: url(/src/images/pizza2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Six > #image{
+    background-image: url(/src/images/scampi.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Seven > #image{
+    background-image: url(/src/images/spagetthi.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Eight > #image{
+    background-image: url(/src/images/teller.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

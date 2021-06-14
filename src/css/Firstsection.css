@@ -1,0 +1,64 @@
+.fourthSection{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+  
+}
+div>h2{
+    margin: 0 auto;
+    text-align: center;
+    color: green;
+}
+div>h1{
+    margin: 0 auto;
+    width: 55vw;
+    text-align: center;
+    color: #000;
+}
+.rowOne
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.rowTwo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fourthSection h2
+{
+    
+    font-size: 36px;
+    padding-left: 25px;
+    text-align: left;
+    color: #000;
+    display: inline;
+    line-height: 20px;
+  
+}
+.fourthSection p
+{
+    font-size: 18px;
+    width:450px;
+    margin-left:55px;
+    color: #000;
+    line-height: 35px;
+  
+}
+
+svg{
+    margin-right: 10px;
+}
+
+.Two{
+    margin-top: 20px;
+}
+.Four{
+    margin-top: 20px;
+}

@@ -1,4 +1,5 @@
 #main{
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr;
@@ -7,6 +8,8 @@
    
 #main div{
    width: 20vw;
+   word-break:normal;
+
 }
 
 #main h1{
@@ -18,7 +21,7 @@
 #main p{
     width: auto;
     font-size: 1rem;
-    word-break: break-all;
+    word-break:normal;
 }
 
 #image{
